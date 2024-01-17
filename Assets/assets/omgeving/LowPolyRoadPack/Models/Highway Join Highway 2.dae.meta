@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0a2215db7f98d4a42923bd1e19203aae
+=======
+guid: df7aef7b3f5b34f438e1f16d9f25c832
+>>>>>>> 0c9f635ea60dd72efc926d446469950c7c359b57
 labels:
 - highway
 - lowpoly
