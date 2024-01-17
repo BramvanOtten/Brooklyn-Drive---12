@@ -37,7 +37,7 @@ public class CarController : MonoBehaviour
         GetInputs();
     }
 
-    void LateUpdate()
+    void Update()
     {
         Move();
     }
