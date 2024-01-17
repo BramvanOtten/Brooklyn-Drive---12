@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 0cdfc1a23bebfa04b830493a4e0acdd3
+=======
 guid: 26e8d194fbf5bca409d8e2a931e7a028
+>>>>>>> 0c9f635ea60dd72efc926d446469950c7c359b57
 labels:
 - car
 - lowpoly

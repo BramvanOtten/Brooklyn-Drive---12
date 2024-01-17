@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: e596db80b6cd3d34390607f8b7c9db9d
+=======
 guid: b902c7d22d14fa843846ba35e963190b
+>>>>>>> 0c9f635ea60dd72efc926d446469950c7c359b57
 labels:
 - street
 - road
