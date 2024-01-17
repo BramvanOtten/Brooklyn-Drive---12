@@ -5,11 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class mainMenuScript : MonoBehaviour
 {
-    // Scenario Menu openen
-    public void Scenario() {
-        SceneManager.LoadScene("");
-    }
-
+    // Quit mogelijkheid
     public void Quit() {
         Debug.Log("De Speler heeft het spel verlaten");
     }
