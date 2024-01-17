@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -262,6 +262,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3e00f6b092fa0844290d6e031b6aa3db, type: 3}
   m_PrefabInstance: {fileID: 1620727721}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &71925111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -388,6 +391,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
   m_PrefabInstance: {fileID: 820711911}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
 --- !u!1001 &138903998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1909,35 +1918,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 931823404}
+    m_TransformParent: {fileID: 884119052}
     m_Modifications:
     - target: {fileID: 100006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_Name
       value: Wheel (1)
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9063568
+      value: -0.7861943
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.916
+      value: 0.37100005
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7084506
+      value: -1.3924167
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1967,8 +1964,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9500000, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -2212,7 +2208,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       value: 1.44
+=======
+      value: -0.20761043
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+      value: -0.20761043
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+      value: -0.20761043
+>>>>>>> parent of 2d9c9f6 (car changes)
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2246,6 +2254,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     m_RemovedComponents:
     - {fileID: 9500000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
     - {fileID: 2586433359232598356, guid: 000e268602069ee41b503cc210240ef7, type: 3}
@@ -2264,20 +2275,65 @@ PrefabInstance:
     - {fileID: -3314351181220715109, guid: 000e268602069ee41b503cc210240ef7, type: 3}
     - {fileID: -5856113198070899408, guid: 000e268602069ee41b503cc210240ef7, type: 3}
     - {fileID: 1083732236769283126, guid: 000e268602069ee41b503cc210240ef7, type: 3}
+=======
+    m_RemovedComponents: []
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+    m_RemovedComponents: []
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+    m_RemovedComponents: []
+>>>>>>> parent of 2d9c9f6 (car changes)
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
       insertIndex: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
       addedObject: {fileID: 1836673524}
     - targetCorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
       insertIndex: 1
       addedObject: {fileID: 2028408425}
+=======
+      addedObject: {fileID: 233034191}
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+      addedObject: {fileID: 233034191}
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+      addedObject: {fileID: 233034191}
+>>>>>>> parent of 2d9c9f6 (car changes)
     - targetCorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1824855628}
     - targetCorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 873183785}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 800155747}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 898899153}
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2080650626}
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
 --- !u!4 &884119052 stripped
@@ -2285,6 +2341,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 000e268602069ee41b503cc210240ef7, type: 3}
   m_PrefabInstance: {fileID: 884119051}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &896784612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2406,6 +2465,12 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
 --- !u!1001 &897862196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2473,6 +2538,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
   m_PrefabInstance: {fileID: 1196801997}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!23 &898899154
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2550,6 +2618,12 @@ Transform:
   - {fileID: 233034191}
   m_Father: {fileID: 2028408425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
 --- !u!1001 &955585568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2612,6 +2686,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
   m_PrefabInstance: {fileID: 955585568}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1025220383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2733,6 +2810,12 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
 --- !u!1001 &1052325434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3248,35 +3331,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 931823404}
+    m_TransformParent: {fileID: 884119052}
     m_Modifications:
     - target: {fileID: 100006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_Name
       value: Wheel (2)
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.40019798
+      value: 0.847
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.916
+      value: 0.343
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.01165
+      value: 1.4865832
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3306,8 +3377,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9500000, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -3979,41 +4049,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 458788, guid: 4d2cdf2836f78914f85386a10cd7db79, type: 3}
   m_PrefabInstance: {fileID: 2097411198}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1451815298
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1451815299}
-  m_Layer: 0
-  m_Name: colliders
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1451815299
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451815298}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2107089453}
-  - {fileID: 71925112}
-  - {fileID: 1025220384}
-  - {fileID: 896784613}
-  m_Father: {fileID: 2028408425}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1459161688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4864,35 +4899,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 931823404}
+    m_TransformParent: {fileID: 884119052}
     m_Modifications:
     - target: {fileID: 100006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_Name
       value: Wheel
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9063568
+      value: -0.7861943
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.916
+      value: 0.37100005
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.01165
+      value: 1.4865832
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4922,8 +4945,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9500000, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -5554,35 +5576,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 931823404}
+    m_TransformParent: {fileID: 884119052}
     m_Modifications:
     - target: {fileID: 100006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_Name
       value: Wheel (3)
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.38819885
+      value: 0.832
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.916
+      value: 0.343
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.6983836
+      value: -1.405
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5612,8 +5622,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9500000, guid: 3de60c8e32dbfbf4d82f0d3e8c328780, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -6219,39 +6228,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023647415}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2028408424
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2028408425}
-  m_Layer: 0
-  m_Name: WHEELS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2028408425
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028408424}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3467527, y: 2.69621, z: -4.7779803}
-  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 931823404}
-  - {fileID: 1451815299}
-  m_Father: {fileID: 884119052}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2042188930 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 457996, guid: 0dd93b050725d874f92e2caeffb53367, type: 3}
@@ -6366,6 +6342,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d2cdf2836f78914f85386a10cd7db79, type: 3}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &2107089452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6487,6 +6466,12 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
+=======
+>>>>>>> parent of 2d9c9f6 (car changes)
 --- !u!1001 &2142793877
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -45,8 +45,8 @@ public class NewBehaviourScript : MonoBehaviour
         gepauzeerd = false;
     }
 
-    public void MainMenuKnop()
+    public void MainMenuKnop()          // Knop voor MainMenu
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);       // Gaat naar MainMenu scene wanneer je hier op klikt
     }
 }
