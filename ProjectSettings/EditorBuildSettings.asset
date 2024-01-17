@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/map.unity
     guid: 053893c70c5e94f439ab64c9975bd0da
+  - enabled: 1
+    path: Assets/Scenes/Scenario's/Scenario1.unity
+    guid: 82fd5167207f4474ab3e29928937ef37
+  - enabled: 1
+    path: Assets/Scenes/Scenario's/Scenario2.unity
+    guid: b829f2008f31447468efbc9dc8e4aa1d
+  - enabled: 1
+    path: Assets/Scenes/Scenario's/Scenario3.unity
+    guid: 05f7933026170e042b2e3f8dab44e828
+  - enabled: 1
+    path: Assets/Scenes/Scenario's/Scenario4.unity
+    guid: e4ac539db96276a428ec440013b18de0
   m_configObjects: {}
