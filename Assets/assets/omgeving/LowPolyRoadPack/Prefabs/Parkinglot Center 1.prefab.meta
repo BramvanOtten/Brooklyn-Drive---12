@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 6323a3ac71df8dc44bc6e0d94c289e90
+=======
+guid: aa844cbc7cd603f45b3a56fed001aee3
+>>>>>>> 0c9f635ea60dd72efc926d446469950c7c359b57
+labels:
+- street
+- road
+- freeway
+- low-poly
+- lowpoly
+- parkinglot
+timeCreated: 1468486760
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

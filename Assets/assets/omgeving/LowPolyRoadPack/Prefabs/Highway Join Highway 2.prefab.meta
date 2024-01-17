@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: 14bc15bca924486459aa9bd4a09087f0
+=======
+guid: 51c576822a7a42345b47955233d25adb
+>>>>>>> 0c9f635ea60dd72efc926d446469950c7c359b57
+labels:
+- street
+- road
+- freeway
+- low-poly
+- lowpoly
+timeCreated: 1468486766
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
