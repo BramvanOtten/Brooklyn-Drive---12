@@ -10,17 +10,17 @@ public class mainMenuScript : MonoBehaviour
         SceneManager.LoadScene("Scenario1");
     }
 
-    public void Scenario2() {
-        SceneManager.LoadScene("Scenario2");
-    }
+    // public void Scenario2() {
+    //     SceneManager.LoadScene("Scenario2");
+    // }
 
-    public void Scenario3() {
-        SceneManager.LoadScene("Scenario3");
-    }
+    // public void Scenario3() {
+    //     SceneManager.LoadScene("Scenario3");
+    // }
 
-    public void Scenario4() {
-        SceneManager.LoadScene("Scenario4");
-    }
+    // public void Scenario4() {
+    //     SceneManager.LoadScene("Scenario4");
+    // }
 
     // Quit mogelijkheid
     public void Quit() {
