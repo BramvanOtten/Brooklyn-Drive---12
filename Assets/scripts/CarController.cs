@@ -24,6 +24,8 @@ public class CarController : MonoBehaviour
     public float turnSensitivity = 1.0f;
     public float maxSteerAngle = 30f;
 
+    public Vector3 _centerOfMass;
+
     public List<Wheel> wheels;
 
     float moveInput;
@@ -34,6 +36,7 @@ public class CarController : MonoBehaviour
     void Start()
     {
         carRb = GetComponent<Rigidbody>();
+        carRb.centerOfMass = _centerOfMass;
     }
 
     void Update()
@@ -45,6 +48,7 @@ public class CarController : MonoBehaviour
     {
         Move();
         Steer();
+        Brake();
     }
 
     void GetInputs()
@@ -69,6 +73,24 @@ public class CarController : MonoBehaviour
             {
                 var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
                 wheel.wheelCollider.steerAngle = Mathf.Lerp(wheel.wheelCollider.steerAngle, _steerAngle, 0.6f);
+            }
+        }
+    }
+
+    void Brake()
+    {
+        if(Input.GetKey(KeyCode.Space))
+        {
+            foreach(var wheel in wheels)
+            {
+                wheel.wheelCollider.brakeTorque = 300 * breakAcceleration * Time.deltaTime;
+            }
+        }
+        else
+        {
+            foreach(var wheel in wheels)
+            {
+                wheel.wheelCollider.brakeTorque = 0f;
             }
         }
     }
