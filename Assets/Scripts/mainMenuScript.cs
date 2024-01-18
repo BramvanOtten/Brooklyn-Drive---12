@@ -32,12 +32,13 @@ public class mainMenuScript : MonoBehaviour
 
     public void Scenario7() {
         SceneManager.LoadScene("Scenario7");
+        // s
     }
 
     public void Scenario8() {
         SceneManager.LoadScene("Scenario8");
     }
-    
+
     // Quit mogelijkheid
     public void Quit() {
         Debug.Log("De Speler heeft het spel verlaten");
