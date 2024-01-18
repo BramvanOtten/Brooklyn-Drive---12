@@ -37,9 +37,9 @@ public class CarController : MonoBehaviour
         GetInputs();
     }
 
-    void LateUpdate()
+    void Update()
     {
-        Move();
+        // Move();
     }
 
     void GetInputs()
@@ -47,11 +47,11 @@ public class CarController : MonoBehaviour
         moveInput = Input.GetAxis("Vertical");
     }
 
-    void Move()
-    {
-        foreach(var wheel in wheels)
-        {
-            wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
-        }
-    }
+    // void Move()
+    // {
+    //     foreach(var wheel in wheels)
+    //     {
+    //         wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
+    //     }
+    // }
 }
