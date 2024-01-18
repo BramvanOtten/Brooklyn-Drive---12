@@ -12,6 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/map.unity
     guid: 053893c70c5e94f439ab64c9975bd0da
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Scenario's/Scenario1.unity
     guid: 82fd5167207f4474ab3e29928937ef37
   - enabled: 1
@@ -23,4 +24,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scenario's/Scenario4.unity
     guid: e4ac539db96276a428ec440013b18de0
+=======
+    path: Assets/Scenes/Menu's/loginMenu.unity
+    guid: fbcc57148a2f2a043bd3aab13ee0ac86
+>>>>>>> Voortgang-en-beheren-van-spelers
   m_configObjects: {}
