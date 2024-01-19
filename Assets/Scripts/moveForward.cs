@@ -12,14 +12,8 @@ public class moveForward : MonoBehaviour
         // Detect if Player is in the vacinity
         if(detectionZone.detectedObjs.Count > 0) {
             // Move object if player is in vacinity
-            Debug.Log("Player detected");
+            // Debug.Log("Player detected");
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 }
