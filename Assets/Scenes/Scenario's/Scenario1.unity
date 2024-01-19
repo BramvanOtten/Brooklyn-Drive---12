@@ -13261,6 +13261,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3384459865244976630, guid: 2e943c3ac8f48d84e8690db148c5ecfb,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3558988524222652127, guid: 2e943c3ac8f48d84e8690db148c5ecfb,
         type: 3}
       propertyPath: m_IsTrigger
