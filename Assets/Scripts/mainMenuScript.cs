@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class mainMenuScript : MonoBehaviour
 {
-    // Gekozen Scenario laden
+    // Scenario's openen
     public void Scenario1() {
         SceneManager.LoadScene("Scenario1");
     }
@@ -22,22 +22,6 @@ public class mainMenuScript : MonoBehaviour
         SceneManager.LoadScene("Scenario4");
     }
 
-    public void Scenario5() {
-        SceneManager.LoadScene("Scenario5");
-    }
-
-    public void Scenario6() {
-        SceneManager.LoadScene("Scenario6");
-    }
-
-    public void Scenario7() {
-        SceneManager.LoadScene("Scenario7");
-    }
-
-    public void Scenario8() {
-        SceneManager.LoadScene("Scenario8");
-    }
-    
     // Quit mogelijkheid
     public void Quit() {
         Debug.Log("De Speler heeft het spel verlaten");

@@ -28,11 +28,10 @@ public class authManager : MonoBehaviour
             await AuthenticationService.Instance.SignInAnonymouslyAsync();
 
             print("Ingelogd!");
-            print("Bewaar je Player ID goed!: " + AuthenticationService.Instance.PlayerId);
-            logTxt.text = "inloggen... " + AuthenticationService.Instance.PlayerId; 
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);       // Gaat naar MainMenu scene wanneer klaar
+            print("Dit is je player ID: " + AuthenticationService.Instance.PlayerId);     // Print automatisch aangemaakte player ID naar console 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);       // Gaat naar MainMenu scene wanneer klaar
         }
-        catch (AuthenticationException ex)
+        catch (AuthenticationException ex)                                  // Als het niet goed gaat, error message
         {
             print("Inloggen niet gelukt!");
             Debug.LogException(ex);
