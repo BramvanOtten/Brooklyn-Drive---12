@@ -1,45 +1,45 @@
-using System.Security.Cryptography.X509Certificates;
-using System.Data;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
-public class scoreManage : MonoBehaviour
+public class ScoreManager : MonoBehaviour
 {
-    public static scoreManage instance;
+    public Text scoreTekst;
+    private int score = 20; // De huidige score
 
-    public TMP_Text scoreText;
-    public int currentScore = 0;
-
-    void Awake()
+    private void Start()
     {
-            instance = this;
+        UpdateScoreTekst(); // Initialiseer de score display
     }
 
-    void Start()
+    // Wanneer je de score wilt verhogen 
+    public void scoreVerhogen(int amount)
     {
-        LoadScore();
+        score += amount; // Verhoogt de score bij een bepaald hoeveelheid
+        UpdateScoreTekst(); // Update de score display
     }
 
-    public void IncreaseCurrentScore(int value)
+    // Dit is nodig voor de score display, het is een update
+    private void UpdateScoreTekst()
     {
-        currentScore += value;
-        scoreText.text = "Score: " + currentScore.ToString();
-
-        SaveScore();
+        if (scoreTekst != null)
+        {
+            scoreTekst.text = "Score: " + score.ToString(); // De tekst updaten met de nieuwe score
+        }
     }
 
-    public void SaveScore()
+    // Als de player een object met de tag Crash aanraakt, 2 minpunten
+    private void OnCollisionEnter(Collision collision)
     {
-        PlayerPrefs.SetInt("Score", currentScore);
-        PlayerPrefs.Save();
+        if (collision.gameObject.CompareTag("Crash"))
+        {
+            scoreVerlagen(2); // Hoeveelheid van de score verminderen, kan aangepast worden
+        }
     }
 
-    private void LoadScore()
+    // Deze method moet je callen wanneer je de score wilt verlagen
+    private void scoreVerlagen(int amount)
     {
-        currentScore = PlayerPrefs.GetInt("Score", 0);
-        scoreText.text = "Score: " + currentScore.ToString();
-        Debug.Log("Loaded Player Score: " + currentScore);
+        score -= amount; // Verlaag de score bij een specifiek hoeveelheid
+        UpdateScoreTekst(); // Update score display
     }
 }
