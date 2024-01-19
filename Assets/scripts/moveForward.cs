@@ -12,7 +12,7 @@ public class moveForward : MonoBehaviour
         // check of de player in de hitbox zit
         if(detectionZone.detectedObjs.Count > 0) {
             // move object als de player in de hitbox zit
-            Debug.Log("Player detected");
+            //Debug.Log("Player detected");
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
 
