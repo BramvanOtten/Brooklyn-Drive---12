@@ -12,7 +12,6 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1f;
-        
     }
 
     // Update word geroepen per frame
@@ -38,7 +37,7 @@ public class NewBehaviourScript : MonoBehaviour
         gepauzeerd = true;
     }
 
-    void Verder()                               // Laat de game verder gaan
+    public void Verder()                               // Laat de game verder gaan
     {
         PauzeMenuCanvas.SetActive(false);
         Time.timeScale = 1f;

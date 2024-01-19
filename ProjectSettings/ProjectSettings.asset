@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 45c0cdd70f0820f46912bcb6257cceca
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -715,7 +715,13 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -735,10 +741,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: da64b905-94b0-4eb0-a588-167de9ae9ef2
+  cloudProjectId: b3d6e2d7-ebd9-441a-a54f-d54ebe408b28
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: BrooklynDrive
+  projectName: 
   organizationId: skybram
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
