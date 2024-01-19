@@ -7,6 +7,7 @@ public class Buttonnavigatie : MonoBehaviour
     public GameObject Navigatie;
    public void Continue()
    {
+        //canvas uitzetten
         Navigatie.SetActive(false);
    }
 }

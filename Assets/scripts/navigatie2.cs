@@ -9,6 +9,7 @@ public class navigatie2 : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
+        // waypoints uitzetten als je in de hitbox komt
         Waypoints.SetActive(false);
     }
 }

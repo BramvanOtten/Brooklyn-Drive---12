@@ -18,6 +18,8 @@ public class CarController : MonoBehaviour
         public WheelCollider wheelCollider;
         public Axel axel;
     }
+
+    //de max values invoeren van de auto
     public float maxAcceleration = 90.0f;
     public float breakAcceleration = 50.0f;
 
@@ -26,6 +28,7 @@ public class CarController : MonoBehaviour
 
     public Vector3 _centerOfMass;
 
+    //lijst voor de wielen zodat je ze individueel kan invoeren en gebruiken
     public List<Wheel> wheels;
 
     float moveInput;
@@ -46,6 +49,7 @@ public class CarController : MonoBehaviour
 
     void LateUpdate()
     {
+        // functies uitvoeren
         Move();
         Steer();
         Brake();
@@ -53,6 +57,7 @@ public class CarController : MonoBehaviour
 
     void GetInputs()
     {
+        //move inputs over nemen en gebruiken
         moveInput = Input.GetAxis("Vertical");
         steerInput = Input.GetAxis("Horizontal");
     }
@@ -61,6 +66,7 @@ public class CarController : MonoBehaviour
     {
         foreach(var wheel in wheels)
         {
+            // elk wiel laten rijden
             wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
         }
     }
@@ -71,6 +77,7 @@ public class CarController : MonoBehaviour
         {
             if(wheel.axel == Axel.Front)
             {
+                // elk wiel laten sturen
                 var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
                 wheel.wheelCollider.steerAngle = Mathf.Lerp(wheel.wheelCollider.steerAngle, _steerAngle, 0.6f);
             }
@@ -83,6 +90,7 @@ public class CarController : MonoBehaviour
         {
             foreach(var wheel in wheels)
             {
+                //wielen laten remmen
                 wheel.wheelCollider.brakeTorque = 300 * breakAcceleration * Time.deltaTime;
             }
         }
@@ -90,6 +98,7 @@ public class CarController : MonoBehaviour
         {
             foreach(var wheel in wheels)
             {
+            
                 wheel.wheelCollider.brakeTorque = 0f;
             }
         }

@@ -9,6 +9,7 @@ public class parkingCanvas : MonoBehaviour
 
     void OnTriggerEnter(Collider colliderParking)
     {
+        //activeer de volgende navigatie nadat je de waypoint behaald hebt
         Parking.SetActive(true);
     }
 }

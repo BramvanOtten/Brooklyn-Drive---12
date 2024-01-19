@@ -9,9 +9,9 @@ public class moveForward : MonoBehaviour
     Collider physicsCollider;
  
     void FixedUpdate() {
-        // Detect if Player is in the vacinity
+        // check of de player in de hitbox zit
         if(detectionZone.detectedObjs.Count > 0) {
-            // Move object if player is in vacinity
+            // move object als de player in de hitbox zit
             Debug.Log("Player detected");
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
