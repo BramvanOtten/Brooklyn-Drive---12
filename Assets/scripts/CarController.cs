@@ -92,6 +92,13 @@ public class CarController : MonoBehaviour
             {
                 wheel.wheelCollider.brakeTorque = 0f;
             }
+    }
+
+    void Move()
+    {
+        foreach(var wheel in wheels)
+        {
+            wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
         }
     }
 }
