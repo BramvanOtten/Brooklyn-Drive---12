@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-
+ 
 public class CarController : MonoBehaviour
 {
     public enum Axel
@@ -10,7 +10,7 @@ public class CarController : MonoBehaviour
         Front,
         Rear
     }
-    
+   
     [Serializable]
     public struct Wheel
     {
@@ -27,15 +27,16 @@ public class CarController : MonoBehaviour
     public Vector3 _centerOfMass;
 
     public List<Wheel> wheels;
-
+ 
     float moveInput;
     float steerInput;
 
     private Rigidbody carRb;
-
+ 
     void Start()
     {
         carRb = GetComponent<Rigidbody>();
+        carRb.centerOfMass = _centerOfMass;
         carRb.centerOfMass = _centerOfMass;
     }
 
@@ -48,7 +49,7 @@ public class CarController : MonoBehaviour
     {
         Move();
     }
-
+ 
     void GetInputs()
     {
         moveInput = Input.GetAxis("Vertical");
@@ -60,6 +61,46 @@ public class CarController : MonoBehaviour
         foreach(var wheel in wheels)
         {
             wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
+        }
+    }
+}
+
+ 
+    void Move()
+    {
+        foreach(var wheel in wheels)
+        {
+            wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
+        }
+    }
+ 
+    void Steer()
+    {
+        foreach(var wheel in wheels)
+        {
+            if(wheel.axel == Axel.Front)
+            {
+                var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
+                wheel.wheelCollider.steerAngle = Mathf.Lerp(wheel.wheelCollider.steerAngle, _steerAngle, 0.6f);
+            }
+        }
+    }
+ 
+    void Brake()
+    {
+        if(Input.GetKey(KeyCode.Space))
+        {
+            foreach(var wheel in wheels)
+            {
+                wheel.wheelCollider.brakeTorque = 300 * breakAcceleration * Time.deltaTime;
+            }
+        }
+        else
+        {
+            foreach(var wheel in wheels)
+            {
+                wheel.wheelCollider.brakeTorque = 0f;
+            }
         }
     }
 }

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 935137b63a49d2c4da7291fb24ff9a2d
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -744,8 +744,8 @@ PlayerSettings:
   cloudProjectId: b3d6e2d7-ebd9-441a-a54f-d54ebe408b28
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: BrooklynDrive
-  organizationId: azraakkilic0
+  projectName: 
+  organizationId: skybram
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
