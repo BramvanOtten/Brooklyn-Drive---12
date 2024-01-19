@@ -15,9 +15,9 @@ public class cloudSaveScript : MonoBehaviour
         await UnityServices.InitializeAsync();
     }
 
-    public async void DataOpslaan()
+    public async void DataOpslaan()     // Zodat alleen data gestuurd kan worden naar de cloud wanneer je geregistreerd bent + authManager.cs
     {
-        var data = new Dictionary<string, object> {{"eerstedata",inpf.text}};
+        var data = new Dictionary<string, object> {{"eersteData",inpf.text}};
         await CloudSaveService.Instance.Data.ForceSaveAsync(data);
     }
 }

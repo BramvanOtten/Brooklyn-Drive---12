@@ -47,12 +47,51 @@ public class CarController : MonoBehaviour
     void LateUpdate()
     {
         Move();
+        Steer();
+        Brake();
     }
 
     void GetInputs()
     {
         moveInput = Input.GetAxis("Vertical");
         steerInput = Input.GetAxis("Horizontal");
+    }
+
+    void Move()
+    {
+        foreach(var wheel in wheels)
+        {
+            wheel.wheelCollider.motorTorque = moveInput * 600 * maxAcceleration * Time.deltaTime;
+        }
+    }
+
+    void Steer()
+    {
+        foreach(var wheel in wheels)
+        {
+            if(wheel.axel == Axel.Front)
+            {
+                var _steerAngle = steerInput * turnSensitivity * maxSteerAngle;
+                wheel.wheelCollider.steerAngle = Mathf.Lerp(wheel.wheelCollider.steerAngle, _steerAngle, 0.6f);
+            }
+        }
+    }
+
+    void Brake()
+    {
+        if(Input.GetKey(KeyCode.Space))
+        {
+            foreach(var wheel in wheels)
+            {
+                wheel.wheelCollider.brakeTorque = 300 * breakAcceleration * Time.deltaTime;
+            }
+        }
+        else
+        {
+            foreach(var wheel in wheels)
+            {
+                wheel.wheelCollider.brakeTorque = 0f;
+            }
     }
 
     void Move()
