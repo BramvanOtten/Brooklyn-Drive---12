@@ -11,8 +11,12 @@ public class cameraController : MonoBehaviour
 
     void Update()
     {
+        // zodat je rond kan kijken
         rotationY += Input.GetAxis("Mouse X") * sensitivity;
         rotationX += Input.GetAxis("Mouse Y") * -1 * sensitivity;
         transform.localEulerAngles = new Vector3(rotationX, rotationY, 0);
+
+        // zodat je de camera vastzet 
+        rotationX = Mathf.Clamp(rotationX, -90f, 90f);
     }
 }
